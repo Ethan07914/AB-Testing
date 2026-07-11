@@ -15,6 +15,14 @@ A way to determine which variant of something performs better. This is done by d
 
 - Compare the performance of two different models.
 
+## Statistical Power
+
+- Tests ability to detect a real effect when one truly exists.
+- High statistical power helps you avoid type 2 errors (false negatives) test fails to detect a significant change.
+- The probability of correctly rejecting the null hypothesis when a true difference exists.
+- Lower powered tests can waste resources as they fail to detect opportunities to enhance revenue and other KPIs.
+- The higher the power the larger the sample size required in each group, this means the experiment will also have to be run for longer increasing cost.
+
 ## Steps
 
 1. Define the hypothesis: "The new ML-based recommendation system will increase the click-through rate (CTR) by at least 15% compared to the existing rule-based system". H0: The old system will perform better, H1: The new system will perform better.
@@ -183,3 +191,4 @@ def analyze_ab_test_results(control_visitors, control_conversions,
 
 1. (Ayushi Mahariye, GeeksForGeeks, https://www.geeksforgeeks.org/data-science/a-b-testing-using-python/)
 2. (Natassha Selvaraj, KDnuggets, https://www.kdnuggets.com/a-complete-guide-to-a-b-testing-in-python)
+3. (STATSIG, https://www.statsig.com/perspectives/power-analysis-ab-testing-guide)
